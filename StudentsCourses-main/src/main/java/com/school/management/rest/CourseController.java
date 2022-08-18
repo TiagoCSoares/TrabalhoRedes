@@ -41,11 +41,11 @@ public class CourseController {
 		return this.courseService.getCourses();
 	}
 
-	@GetMapping(value = "/")
+	/*@GetMapping(value = "/")
 	@ResponseStatus(HttpStatus.OK)
-	public List<CourseDto> getCourses() {
+	//public List<CourseDto> getCourses() {
 		return this.courseService.getCourses();
-	}
+	}*/
 
 	/**
 	 * 

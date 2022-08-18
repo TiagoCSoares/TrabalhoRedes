@@ -4,6 +4,7 @@ import com.school.management.model.Course;
 import com.school.management.model.dto.CourseDto;
 import com.school.management.repository.CourseRepository;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -12,6 +13,7 @@ import java.time.Instant;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class CourseService {
 
     private final CourseRepository courseRepository;
